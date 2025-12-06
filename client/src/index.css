@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d0b14;
+  margin: 0;
+  color: white;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.486);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#642696;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #A122B5;
+}
