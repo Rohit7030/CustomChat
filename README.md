@@ -79,3 +79,42 @@ npm run dev
 node server/src/scripts/seedFaq.js
 ```
 
+### 📌 OpenAI Prompt Instruction Used
+
+```bash
+You are a professional Customer Support AI.
+You only answer support-related questions.
+If user asks unrelated things, respond:
+"I can assist only with customer support queries."
+
+Use markdown formatting:
+- Headings
+- Bullet points
+- Bold text
+- Code examples (optional)
+
+If unsure → ask clarifying questions.
+If query matches FAQ → answer precisely.
+```
+
+### 📂 Project Structure
+
+```bash
+CustomChat/
+ ├── client/              # React UI
+ │   ├── src/components/ChatBox.jsx
+ │   ├── src/components/Message.jsx
+ │   └── ...
+ ├── server/              # Node backend
+ │   ├── src/controllers/chat.controller.js
+ │   ├── src/models/faq.model.js
+ │   ├── src/scripts/seedFaq.js
+ │   ├── src/services/llm.service.js
+ │   └── ...
+ ├── README.md
+ └── package.json
+ ```
+
+
+
+
