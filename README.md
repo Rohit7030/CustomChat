@@ -18,6 +18,12 @@ Built using **React + Node.js + MongoDB + OpenAI LLM** with dark UI and smooth c
 | Clear Chat Button | ✔ |
 | Custom UI Theme (Purple Neon) | ✔ |
 
+### 🔗 Google drive link for demo
+
+```bash
+https://drive.google.com/file/d/1Q0lZZ_m95H3JfaZZJmQA2b54YQLB8m6H/view?usp=sharing
+```
+
 
 ## 🏗 Tech Stack
 
